@@ -10,9 +10,7 @@ public class Motorcycle extends Vehicle {
         this.hasSidecar = hasSidecar;
         this.color = color;
     }
-    public Motorcycle(String brand, int year){
-        super(brand, year);
-    }
+
     @Override
     public void move() {
         System.out.println(brand + " motorcycle is moving at " + speed + " mph.");
